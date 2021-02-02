@@ -15,6 +15,8 @@
                         curl --data-raw @upload/data.csv http://localhost:3000/upload
 
     En la terminal se mostrarán los valores almacenados para cada persona y se puede verificar haciendo una búsqueda en
-    base de datos
+    base de datos. Se puede examinar los datos en la base de datos con el comando:
                         cargo run --bin query
+    
+                        
     "
